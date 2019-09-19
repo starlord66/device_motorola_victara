@@ -11,7 +11,7 @@ LOCAL_SRC_FILES := power.c \
                    utils.c \
                    list.c \
                    hint-data.c \
-                   power-8916.c
+                   power-8974.c
 
 ifeq ($(TARGET_USES_INTERACTION_BOOST),true)
     LOCAL_CFLAGS += -DINTERACTION_BOOST
